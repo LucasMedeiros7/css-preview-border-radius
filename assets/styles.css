@@ -13,14 +13,50 @@ input {
   color: #222222;
 }
 
+header {
+  text-align: center;
+  margin-bottom: 66px;
+}
+
+h1 {
+  font-family: 'Open sans', sans-serif;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 72px;
+  letter-spacing: -0.46px;
+  color: #ffe8d9;
+}
+
+h2 {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: -0.46px;
+  color: #ffe8d9;
+}
+
 .github-svg {
   position: absolute;
   right: 0;
   top: 0;
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 105px auto 0 auto;
+}
+
+.preview-container {
+  width: 286px;
+  max-width: 100%;
+}
+
 .box {
-  background-color: #FF9466;
+  background-color: #ff9466;
   width: 286px;
   height: 286px;
   margin: 12px 0 12px 0;
