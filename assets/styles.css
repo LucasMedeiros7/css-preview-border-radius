@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  color: #fff; /* Excluir */
+}
+
+body {
+  background-color: #222222;
+}
+
+input {
+  color: #222222;
+}
+
+.github-svg {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.box {
+  background-color: #FF9466;
+  width: 286px;
+  height: 286px;
+  margin: 12px 0 12px 0;
+}
