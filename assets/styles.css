@@ -9,6 +9,14 @@ html {
   font-size: 100%;
 }
 
+a svg path {
+  transition: 0.2s;
+}
+
+a:hover svg path{
+  fill: #ffe8d9;
+}
+
 .github-svg {
   position: absolute;
   right: 0;
