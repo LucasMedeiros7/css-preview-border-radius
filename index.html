@@ -12,6 +12,7 @@
     />
 
     <link rel="stylesheet" href="./assets/styles.css" />
+    <script src="./assets/main.js" defer></script>
     <title>CSS Preview: Border Radius</title>
   </head>
   <body>
@@ -50,31 +51,33 @@
       </header>
 
       <div class="generated-css">
-        <span>border-radius: 50px 0 0 0;</span>
+        <span
+          >border-radius: <span id="border-radius-values">0 0 0 0</span>;</span
+        >
       </div>
 
       <div class="preview-container">
         <div class="top-inputs">
           <div>
             <label for="top-left">Top Left</label>
-            <input type="text" id="top-left" />
+            <input type="number" id="top-left" />
           </div>
 
           <div>
             <label for="top-right">Top Right</label>
-            <input type="text" id="top-right" />
+            <input type="number" id="top-right" />
           </div>
         </div>
         <div class="box"></div>
         <div class="bottom-inputs">
           <div>
             <label for="bottom-left">Bottom Left</label>
-            <input type="text" id="bottom-left" />
+            <input type="number" id="bottom-left" />
           </div>
 
           <div>
             <label for="bottom-right">Bottom Right</label>
-            <input type="text" id="bottom-right" />
+            <input type="number" id="bottom-right" />
           </div>
         </div>
       </div>
