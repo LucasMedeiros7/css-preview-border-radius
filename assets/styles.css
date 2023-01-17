@@ -51,7 +51,7 @@ html {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .main-container {
@@ -62,9 +62,37 @@ html {
   margin: 105px auto 0 auto;
 }
 
+.main-container label {
+  font-family: 'Open sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #f7f7f7;
+}
+
+.top-inputs,
+.bottom-inputs {
+  display: flex;
+  width: 100%;
+  max-width: 286px;
+  gap: 86px;
+}
+
+.top-inputs input,
+.bottom-inputs input {
+  margin-top: 4px;
+  background-color: #f7f7f7;
+  border-radius: 6px;
+  height: 35px;
+  width: 85px;
+  border: 1px solid #9E9E9E;
+  outline: none;
+  padding: 5px 0 5px 12px;
+}
+
 .preview-container {
-  width: 286px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 286px;
 }
 
 .box {
